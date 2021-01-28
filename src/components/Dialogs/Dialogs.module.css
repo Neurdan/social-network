@@ -1,0 +1,52 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.dialog{
+    margin: 15px 0;
+}
+
+.dialog.floating {
+
+    text-align: end;
+
+
+}
+
+.dialog img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.sendMessage {
+    width: 100%;
+    text-align: center;
+}
+
+.textArea{
+    width: 99%;
+}
+
+.btnClass{
+    font-size: 14px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
